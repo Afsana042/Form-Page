@@ -1,0 +1,103 @@
+body{
+  
+ padding:0;
+ margin: 0;
+ background: url(photo1.jpg);
+ color: white;
+ /* background-repeat:no-repeat; */
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+  }
+  .left{
+    /* border: 2px solid red; */
+    margin: 20px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+  }
+  .left img{
+     filter: invert(10%);
+  }
+  .mid{
+    /* border:2px solid green; */
+    margin: auto;
+    margin: 20px;
+    width:40%;
+  }
+  .navbar{
+      display: inline-flex;
+      
+  }
+  .navbar ul{
+
+    text-decoration: none;
+    color: white;
+  }
+   .navbar  li{
+    display:inline-block;
+    font-size:18px;
+
+  }
+  .navbar li a{
+    color:white;
+    text-decoration: none;
+    padding: 34px 23px;
+  }
+  .navbar li a:hover, .navbar li a.active{
+    color:grey;
+    text-decoration: underline;
+  }
+  .right{
+    margin: 20px;
+    /* border:2px solid  yellow; */
+  }
+  .btn{
+    padding: 4px 14px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    border-radius: 5px;
+    border:3px solid gray
+  }
+  .btn:hover{
+    background-color:grey ;
+    color: black;
+  
+  }
+  .container{
+  
+    /* border: 3px solid rgb(172, 166, 155); */
+    margin:106px 80px;
+  padding: 75px;
+
+    width:33%;
+    border-radius: 28px;
+
+  }
+  .container h1{
+    text-align: center;
+  }
+  .form-group{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .form-group input{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+    width:400px;
+    padding: 5px;
+    margin:8px;
+    font-size: 20px;
+  }
+  .form-group button{
+display: block;
+margin: auto;
+width:33px;
+  }
